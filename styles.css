@@ -46,3 +46,7 @@
   font-size: 10pt;
   /* Add any additional styles for locations */
 }
+.right-align {
+      direction: rtl;
+      text-align: right;
+    }
