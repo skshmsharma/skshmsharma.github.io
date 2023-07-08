@@ -89,6 +89,29 @@ a:hover {
   display: block;
 }
 
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info a {
+  margin-bottom: 5px;
+}
+
 /* Responsive styles */
 @media (max-width: 767px) {
   .column {
