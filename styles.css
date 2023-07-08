@@ -26,7 +26,8 @@ section h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: "Lato-Hai", sans-serif; /* Lato Heavy */
+  font-family: "Lato-Lig", sans-serif; /* Lato Light */
+  color: #6A6A6A; /* Headings color */
 }
 
 section h3 {
@@ -34,11 +35,13 @@ section h3 {
   font-weight: bold;
   margin-bottom: 10px;
   font-family: "Lato-Bol", sans-serif; /* Lato Bold */
+  color: #333333; /* Subheadings color */
 }
 
 section p {
   margin-bottom: 10px;
-  font-family: "Raleway-Regular", sans-serif; /* Raleway Regular */
+  font-family: "Lato-RegIta", sans-serif; /* Lato Regular Italic */
+  color: #2b2b2b; /* Primary color */
 }
 
 /* Links */
@@ -106,6 +109,7 @@ a:hover {
   font-weight: bold;
   margin-bottom: 10px;
   font-family: "Lato-Hai", sans-serif; /* Lato Heavy */
+  color: #2b2b2b; /* Primary color */
 }
 
 .contact-info {
