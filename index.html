@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
-<meta charset="utf-8">
-<title>Colorlib | Free Bootstrap Website Template</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<meta name="robots" content="noindex, nofollow" />
-
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="assets/css/template.css" rel="stylesheet" media="screen">
-<link href="assets/css/fa.min.css" rel="stylesheet" media="screen">
-<link href="assets/css/gfonts.min.css" rel="stylesheet" media="screen">
-<script>if ( top !== self ) top.location.replace( self.location.href );// Hey, don't iframe my iframe!</script>
-
-
-<!--[if lt IE 9]>
-		<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary subline time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
-	<![endif]-->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-23581568-13');
-	</script>
-<script nonce="6e8a2dac-b855-4982-8af0-860fda26eb79">(function(w,d){!function(bv,bw,bx,by){bv[bx]=bv[bx]||{};bv[bx].executed=[];bv.zaraz={deferred:[],listeners:[]};bv.zaraz.q=[];bv.zaraz._f=function(bz){return function(){var bA=Array.prototype.slice.call(arguments);bv.zaraz.q.push({m:bz,a:bA})}};for(const bB of["track","set","debug"])bv.zaraz[bB]=bv.zaraz._f(bB);bv.zaraz.init=()=>{var bC=bw.getElementsByTagName(by)[0],bD=bw.createElement(by),bE=bw.getElementsByTagName("title")[0];bE&&(bv[bx].t=bw.getElementsByTagName("title")[0].text);bv[bx].x=Math.random();bv[bx].w=bv.screen.width;bv[bx].h=bv.screen.height;bv[bx].j=bv.innerHeight;bv[bx].e=bv.innerWidth;bv[bx].l=bv.location.href;bv[bx].r=bw.referrer;bv[bx].k=bv.screen.colorDepth;bv[bx].n=bw.characterSet;bv[bx].o=(new Date).getTimezoneOffset();if(bv.dataLayer)for(const bI of Object.entries(Object.entries(dataLayer).reduce(((bJ,bK)=>({...bJ[1],...bK[1]})))))zaraz.set(bI[0],bI[1],{scope:"page"});bv[bx].q=[];for(;bv.zaraz.q.length;){const bL=bv.zaraz.q.shift();bv[bx].q.push(bL)}bD.defer=!0;for(const bM of[localStorage,sessionStorage])Object.keys(bM||{}).filter((bO=>bO.startsWith("_zaraz_"))).forEach((bN=>{try{bv[bx]["z_"+bN.slice(7)]=JSON.parse(bM.getItem(bN))}catch{bv[bx]["z_"+bN.slice(7)]=bM.getItem(bN)}}));bD.referrerPolicy="origin";bD.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bv[bx])));bC.parentNode.insertBefore(bD,bC)};["complete","interactive"].includes(bw.readyState)?zaraz.init():bv.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+  <div class="container">
+    <section>
+      <h2>Education</h2>
+      <div class="column">
+        <div class="column-1">
+          <h3>2022-23</h3>
+          <p>Tried for Masters at Top Indian Universities</p>
+          <p>Attempted exams such as GATE, BITS HD and PGEE</p>
+        </div>
+        <div class="column-2">
+          <h3>VIT Univesity</h3>
+          <p>BE in Computer Science</p>
+          <p>July, 2022 | Vellore Campus</p>
+          <p>Tamil Nadu | India</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="column-1">
+          <h3>G.S.S.S. Mubarikpur</h3>
+          <p>12th Standard - Science</p>
+          <p>May 2017 | Himachal, India</p>
+          <p>Grade: 94.6 %</p>
+        </div>
+        <div class="column-2">
+          <h3>D.A.V. School, Ambota</h3>
+          <p>10th Standard</p>
+          <p>Grad. May 2015 | Himachal, India</p>
+          <p>Grade: 9.2 CGPA</p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/skshmsharma">LinkedIn: @skshmsharma</a></li>
+        <li><a href="https://github.com/skshmsharma">Github: @skshmsharma</a></li>
+        <li><a href="https://twitter.com/skshmsharma">Twitter: @skshmsharma</a></li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Coursework</h2>
+      <ul class="skills-list">
+        <li>Artificial Intelligence</li>
+        <li>Machine Learning</li>
+        <li>Image Processing</li>
+        <li>Data Visualization</li>
+        <li>Java Programming</li>
+        <li>High Performance Computing</li>
+        <li>Human Computer Interaction</li>
+        <li>Content Based Image Retrieval</li>
+        <li>Parallel and Distributed Computing</li>
+        <li>Information Security Analysis and Auditing</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Proficient: Deep Learning, TensorFlow, NLP, RNN, LSTM, CNN, NumPy, Scikit-Learn, Pandas, Seaborn, Matlab, Python</li>
+        <li>Familiar: R, C++, C, Java, Assembly, Javascript</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Notable Projects</h2>
+      <div class="column">
+        <div class="column-1">
+          <h3>Text Summarization (Capstone Project)</h3>
+          <p>NLP</p>
+          <p>May 2022</p>
+        </div>
+        <div class="column-2">
+          <ul>
+            <li>Performed Text Summarization (Both Abstractive and Extractive)</li>
+            <li>Used various algorithms like BERT and GPT</li>
+            <li>Used TensorFlow framework on Google Colaboratory platform</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Repeat the above structure for other projects -->
+    </section>
+    
+    <section>
+      <h2>Certifications</h2>
+      <ul class="certifications-list">
+        <li><a href="https://www.linkedin.com/learning/certificates/0733714621f4e20477ddcc560b98c25d253312acc6c1d2d43b57341852ed3966">Advance Your Skills in Deep Learning and Neural Networks (LinkedIn)</a></li>
+        <li><a href="https://www.linkedin.com/learning/certificates/9370c405696bc99bf5752b56eda0f6f2108845f8a6fefc2cdbc07e6061da1299">Advance Your Skills in Natural Language Processing (LinkedIn)</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/verify/SNVQSUFHJPNH?utm_source=android&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">Neural Networks and Deep LearningApologies for the incomplete response. Here's the remaining part of the HTML code:
 
-<header class="switcher-bar ssss clearfix">
-
-<div class="logo textual pull-left">
-<a href="https://colorlib.com/wp/templates/" title="Switcher">
-<img src="assets/img/logo.png" alt="Colorlib logo">
-</a>
-</div>
-
-<div class="product-switcher pull-left">
-<a href="#" title="Select a Product">
-Select a Product <span>+</span>
-</a>
-</div>
-
-<div class="remove-btn header-btn pull-right">
-<a href="#" title="Close this bar" class="icon-remove"></a>
-</div>
-
-<div class="purchase-btn header-btn pull-right">
-<a href="#" title="Buy now" class="icon-shopping-cart"></a>
-</div>
-
-<div class="mobile-btn header-btn pull-right hidden-xs">
-<a href="#" title="Smartphone View" class="icon-mobile-phone"></a>
-</div>
-
-<div class="tablet-btn header-btn pull-right hidden-xs">
-<a href="#" title="Tablet View" class="icon-tablet"></a>
-</div>
-
-<div class="desktop-btn header-btn pull-right hidden-xs">
-<a href="#" title="Desktop View" class="icon-desktop"></a>
-</div>
-</header>
-
-<section class="switcher-body">
-<a href="#" title="Prev" class="icon-chevron-left products-prev"></a>
-<div class="products-wrapper">
-<div class="products-list clearfix">
-</div>
-</div>
-<a href="#" title="Next" class="icon-chevron-right products-next"></a>
-</section>
-
-<iframe class="product-iframe" frameborder="0" border="0"></iframe>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="assets/js/products.js"></script>
-<script src="assets/js/application.min.js"></script>
-
-</div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v2b4487d741ca48dcbadcaf954e159fc61680799950996" integrity="sha512-D/jdE0CypeVxFadTejKGTzmwyV10c1pxZk/AqjJuZbaJwGMyNHY3q/mTPWqMUnFACfCTunhZUVcd4cV78dK1pQ==" data-cf-beacon='{"rayId":"7b5c1b641c368483","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.3.0","si":100}' crossorigin="anonymous"></script>
+```html
+      <ul class="certifications-list">
+        <li><a href="https://www.linkedin.com/learning/certificates/0733714621f4e20477ddcc560b98c25d253312acc6c1d2d43b57341852ed3966">Advance Your Skills in Deep Learning and Neural Networks (LinkedIn)</a></li>
+        <li><a href="https://www.linkedin.com/learning/certificates/9370c405696bc99bf5752b56eda0f6f2108845f8a6fefc2cdbc07e6061da1299">Advance Your Skills in Natural Language Processing (LinkedIn)</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/verify/SNVQSUFHJPNH?utm_source=android&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">Neural Networks and Deep Learning (Coursera)</a></li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
