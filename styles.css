@@ -1,155 +1,45 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: 'Raleway';
+  src: url(fonts/Raleway-Thin.otf) format('opentype');
+  /* Add the rest of the font-face declarations for other Raleway fonts */
 }
 
-/* Set default font family and size */
-body {
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 16px;
+@font-face {
+  font-family: 'Lato';
+  src: url(fonts/Lato-RegIta.ttf) format('truetype');
+  /* Add the rest of the font-face declarations for other Lato fonts */
 }
 
-/* Container for the whole page */
 .container {
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Section styles */
-section {
-  margin-bottom: 20px;
-}
-
-section h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: "Lato-Lig", sans-serif; /* Lato Light */
+.section {
   color: #6A6A6A;
+  font-family: 'Lato', sans-serif;
+  font-size: 16pt;
+  /* Add any additional styles for sections */
 }
 
-section h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: "Lato-Bol", sans-serif; /* Lato Bold */
+.subsection {
   color: #333333;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  /* Add any additional styles for subsections */
 }
 
-section p {
-  margin-bottom: 10px;
-  font-family: "Raleway-Medium", sans-serif; /* Raleway Medium */
+.descript {
   color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11pt;
+  /* Add any additional styles for descriptions */
 }
 
-/* Links */
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Column layout */
-.column {
-  display: flex;
-  flex-direction: row;
-}
-
-.column-1 {
-  flex-basis: 30%;
-  margin-right: 30px;
-}
-
-.column-2 {
-  flex-basis: 70%;
-}
-
-/* Skills */
-.skills-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.skills-list li {
-  margin-bottom: 5px;
-}
-
-/* Certifications */
-.certifications-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.certifications-list li {
-  margin-bottom: 5px;
-}
-
-.certifications-list li a {
-  display: block;
-}
-
-/* Header */
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.name {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: "Lato-Hai", sans-serif; /* Lato Heavy */
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-info span {
-  margin: 0 5px;
-}
-
-.contact-info a {
-  margin-bottom: 5px;
-}
-
-/* Horizontal rule */
-hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 20px 0;
-}
-
-/* Responsive styles */
-@media (max-width: 767px) {
-  .column {
-    flex-direction: column;
-  }
-
-  .column-1,
-  .column-2 {
-    flex-basis: 100%;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 991px) {
-  .column-1 {
-    flex-basis: 40%;
-  }
-
-  .column-2 {
-    flex-basis: 60%;
-  }
+.location {
+  color: #6A6A6A;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10pt;
+  /* Add any additional styles for locations */
 }
