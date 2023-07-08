@@ -26,16 +26,19 @@ section h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: "Lato-Hai", sans-serif; /* Lato Heavy */
 }
 
 section h3 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: "Lato-Bol", sans-serif; /* Lato Bold */
 }
 
 section p {
   margin-bottom: 10px;
+  font-family: "Raleway-Regular", sans-serif; /* Raleway Regular */
 }
 
 /* Links */
@@ -102,6 +105,7 @@ a:hover {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: "Lato-Hai", sans-serif; /* Lato Heavy */
 }
 
 .contact-info {
@@ -112,7 +116,6 @@ a:hover {
 .contact-info span {
   margin: 0 5px;
 }
-
 
 .contact-info a {
   margin-bottom: 5px;
