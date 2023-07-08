@@ -109,6 +109,11 @@ a:hover {
   flex-direction: column;
 }
 
+.contact-info span {
+  margin: 0 5px;
+}
+
+
 .contact-info a {
   margin-bottom: 5px;
 }
