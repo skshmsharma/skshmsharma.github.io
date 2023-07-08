@@ -132,3 +132,13 @@ hr {
     margin-right: 0;
   }
 }
+
+@media (max-width: 991px) {
+  .column-1 {
+    flex-basis: 40%;
+  }
+
+  .column-2 {
+    flex-basis: 60%;
+  }
+}
