@@ -1,0 +1,196 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2500
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(ALEX CHEN) Tj
+0 -30 Td
+/F2 12 Tf
+(Data Scientist & Machine Learning Engineer) Tj
+0 -20 Td
+(Email: alex.chen@email.com | LinkedIn: linkedin.com/in/alexchen | GitHub: github.com/alexchen) Tj
+
+0 -40 Td
+/F1 16 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F2 11 Tf
+(Experienced Data Scientist with 3+ years of expertise in machine learning, statistical analysis,) Tj
+0 -15 Td
+(and data visualization. Proven track record of developing predictive models that drive business) Tj
+0 -15 Td
+(decisions and improve operational efficiency. Skilled in Python, R, SQL, and cloud platforms.) Tj
+
+0 -30 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F2 12 Tf
+(Master of Science in Data Science) Tj
+0 -15 Td
+/F2 11 Tf
+(Stanford University, 2021) Tj
+0 -10 Td
+(Relevant Coursework: Machine Learning, Statistical Inference, Deep Learning, Big Data Analytics) Tj
+
+0 -20 Td
+/F2 12 Tf
+(Bachelor of Science in Computer Science) Tj
+0 -15 Td
+/F2 11 Tf
+(University of California, Berkeley, 2019) Tj
+0 -10 Td
+(Magna Cum Laude, GPA: 3.8/4.0) Tj
+
+0 -30 Td
+/F1 16 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -20 Td
+/F2 12 Tf
+(Senior Data Scientist | TechCorp Inc. | 2022 - Present) Tj
+0 -15 Td
+/F2 11 Tf
+(• Developed customer churn prediction model achieving 94% accuracy, reducing churn by 15%) Tj
+0 -12 Td
+(• Built real-time recommendation system serving 1M+ users with 25% increase in engagement) Tj
+0 -12 Td
+(• Led cross-functional team of 5 engineers to deploy ML models in production using AWS) Tj
+0 -12 Td
+(• Implemented A/B testing framework resulting in 20% improvement in conversion rates) Tj
+
+0 -20 Td
+/F2 12 Tf
+(Data Scientist | DataSolutions LLC | 2021 - 2022) Tj
+0 -15 Td
+/F2 11 Tf
+(• Created sales forecasting models using ARIMA and LSTM, improving accuracy by 30%) Tj
+0 -12 Td
+(• Developed sentiment analysis API processing 100K+ social media posts daily) Tj
+0 -12 Td
+(• Built interactive dashboards using Tableau and Streamlit for executive reporting) Tj
+0 -12 Td
+(• Collaborated with product teams to integrate ML insights into user-facing features) Tj
+
+0 -30 Td
+/F1 16 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F2 11 Tf
+(Programming Languages: Python, R, SQL, JavaScript, Scala) Tj
+0 -12 Td
+(Machine Learning: Scikit-learn, TensorFlow, PyTorch, XGBoost, Keras) Tj
+0 -12 Td
+(Data Visualization: Matplotlib, Seaborn, Plotly, Tableau, D3.js) Tj
+0 -12 Td
+(Big Data: Apache Spark, Hadoop, Kafka, Airflow) Tj
+0 -12 Td
+(Cloud Platforms: AWS, Google Cloud, Azure, Databricks, Snowflake) Tj
+0 -12 Td
+(Tools: Jupyter, Git, Docker, MLflow, Streamlit, FastAPI) Tj
+
+0 -30 Td
+/F1 16 Tf
+(CERTIFICATIONS) Tj
+0 -20 Td
+/F2 11 Tf
+(• AWS Certified Machine Learning - Specialty (2023)) Tj
+0 -12 Td
+(• Google Cloud Professional Machine Learning Engineer (2022)) Tj
+0 -12 Td
+(• Certified Analytics Professional (CAP) (2021)) Tj
+
+0 -30 Td
+/F1 16 Tf
+(KEY PROJECTS) Tj
+0 -20 Td
+/F2 12 Tf
+(Customer Churn Prediction System) Tj
+0 -15 Td
+/F2 11 Tf
+(Built ensemble model using XGBoost and Random Forest achieving 94% accuracy) Tj
+
+0 -15 Td
+/F2 12 Tf
+(Real-time Sentiment Analysis API) Tj
+0 -15 Td
+/F2 11 Tf
+(Deployed BERT-based NLP model on AWS with FastAPI serving 100K+ requests daily) Tj
+
+0 -15 Td
+/F2 12 Tf
+(Movie Recommendation Engine) Tj
+0 -15 Td
+/F2 11 Tf
+(Implemented collaborative filtering with matrix factorization using TensorFlow) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002826 00000 n 
+0000002903 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+2975
+%%EOF
+
