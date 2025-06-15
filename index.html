@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Sharma - Data Scientist Portfolio</title>
+    <meta name="description" content="Data Scientist specializing in Machine Learning, Data Visualization, and Predictive Analytics">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Saksham Sharma</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Saksham Sharma</span>
+                </h1>
+                <p class="hero-subtitle">Aspiring Data Scientist</p>
+                <p class="hero-description">
+                    I transform complex data into actionable insights and build intelligent systems 
+                    that drive business decisions. Passionate about uncovering patterns in data 
+                    and creating predictive models that make a real impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="assets/profile.jpg" alt="Saksham Sharma" id="profile-img">
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Learning Years</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Models</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about turning data into insights</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a data scientist with a strong background in machine learning, statistical analysis, 
+                        and data visualization. My journey began with a degree in Computer Science and Statistics, 
+                        and I've since worked on diverse projects ranging from predictive analytics to natural 
+                        language processing.
+                    </p>
+                    <p>
+                        What drives me is the ability to find meaningful patterns in complex datasets and translate 
+                        them into actionable business strategies. I believe that data science is not just about 
+                        algorithms and models, but about storytelling and making data accessible to everyone.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>M.Tech CSE(Data Science) IIIT Una | B.Tech CSE VIT-Vellore</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Experience</h4>
+                                <p>Summer Internship at NIT Hamirpur</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Certifications</h4>
+                                <p>Advanced RAG(LinkedIn), AI Agents using LangGraph(LinkedIn), Deep Learning Spec.(Coursera) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <h3>My Approach</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Data-driven decision making</li>
+                            <li><i class="fas fa-check"></i> Collaborative problem solving</li>
+                            <li><i class="fas fa-check"></i> Continuous learning mindset</li>
+                            <li><i class="fas fa-check"></i> Clear communication of insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my data science work</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Customer Churn Prediction">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Machine Learning</div>
+                        <h3 class="project-title">Customer Churn Prediction</h3>
+                        <p class="project-description">
+                            Built a machine learning model to predict customer churn with 94% accuracy 
+                            using ensemble methods and feature engineering techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Sales Forecasting Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Data Visualization</div>
+                        <h3 class="project-title">Sales Forecasting Dashboard</h3>
+                        <p class="project-description">
+                            Interactive dashboard for sales forecasting using time series analysis 
+                            and ARIMA models, deployed with Streamlit.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Plotly</span>
+                            <span class="tech-tag">ARIMA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Sentiment Analysis API">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">NLP</div>
+                        <h3 class="project-title">Sentiment Analysis API</h3>
+                        <p class="project-description">
+                            RESTful API for real-time sentiment analysis of social media data 
+                            using BERT and deployed on AWS with Docker.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">BERT</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project4.jpg" alt="Recommendation System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Recommendation Systems</div>
+                        <h3 class="project-title">Movie Recommendation Engine</h3>
+                        <p class="project-description">
+                            Collaborative filtering recommendation system using matrix factorization 
+                            and deep learning techniques for personalized movie suggestions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Surprise</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools and technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">R</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">Scala</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Scikit-learn</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">XGBoost</span>
+                        <span class="skill-item">Keras</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Visualization</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">Seaborn</span>
+                        <span class="skill-item">Plotly</span>
+                        <span class="skill-item">Tableau</span>
+                        <span class="skill-item">D3.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Engineering</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Apache Spark</span>
+                        <span class="skill-item">Hadoop</span>
+                        <span class="skill-item">Kafka</span>
+                        <span class="skill-item">Airflow</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Google Cloud</span>
+                        <span class="skill-item">Azure</span>
+                        <span class="skill-item">Databricks</span>
+                        <span class="skill-item">Snowflake</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Frameworks</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Jupyter</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">MLflow</span>
+                        <span class="skill-item">Streamlit</span>
+                        <span class="skill-item">FastAPI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to collaborate on your next data project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>alex.chen@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/alexchen</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/alexchen</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Resume</h4>
+                            <a href="assets/Alex_Chen_Resume.pdf" target="_blank" class="resume-link">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Alex Chen. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
